@@ -1,5 +1,3 @@
----
-
 ## Developer Tools Guide
 
 ### What are Developer Tools?
@@ -75,5 +73,3 @@ Developer Tools, commonly referred to as DevTools, are a set of web authoring an
 1. Open Developer Tools and navigate to the **Elements** tab.
 2. Drag and drop elements directly within the DOM tree to move them.
 3. This will reflect immediately on the webpage.
-
----
