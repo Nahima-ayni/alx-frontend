@@ -1,0 +1,12 @@
+:root {
+    --body: #161616;
+    --a: #161616;
+    --visually-hidden: display: none;
+    --card-category: #D73953;
+    --section-tagline: #D73953;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
