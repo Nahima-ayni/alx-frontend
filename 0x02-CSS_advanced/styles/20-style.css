@@ -36,7 +36,6 @@
     --section-body-padding: 0 0 3rem;
     --section-footer-padding: 3rem 0 0;
     --section-footer-align: center;
-    --section-tagline-margin: 0;
     --footer-padding: 5rem 0 1rem;
 
     --nav-item-font-family: var(--font-family-title);
@@ -46,6 +45,7 @@
     --nav-item-display: inline-block;
     --nav-item-margin: 0 0 3rem 0;
     --nav-item-link-hover: var(--color-primary);
+    --section-tagline-margin: 0;
 }
 
 
@@ -161,7 +161,12 @@ a:active {
     margin: var(--section-tagline-margin);
 }
 
-ul.row {
+.row {
+    display: table;
+    float: none;
+}
+
+.row ul {
     margin: 0;
     padding: 0;
     list-style: none;
