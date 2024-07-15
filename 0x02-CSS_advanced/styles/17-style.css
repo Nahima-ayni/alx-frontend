@@ -100,7 +100,7 @@ html {
 
 .section-footer {
     padding: var(--section-header-padding);
-    hr: var(--section-footer-align)
+    text-align: var(--section-footer-align);
 }
 
 .section-title {
