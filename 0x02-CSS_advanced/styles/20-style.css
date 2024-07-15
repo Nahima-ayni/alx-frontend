@@ -161,12 +161,14 @@ a:active {
     margin: var(--section-tagline-margin);
 }
 
-.row {
+.row::after {
+    content: "";
     display: table;
     float: none;
+    clear: both;
 }
 
-.row ul {
+ul.row {
     margin: 0;
     padding: 0;
     list-style: none;
