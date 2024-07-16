@@ -266,6 +266,7 @@ a:active {
     left: 0;
     right: 0;
     bottom: 0;
+    content: "";
 }
 
 .card-work:hover .card-title {
