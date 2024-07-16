@@ -253,7 +253,7 @@ a:active {
     position: relative;
 }
 
-.card-title .card-work a {
+.card-work .card-title a {
     display: block;
     text-decoration: none;
     padding-top: 45%;
@@ -266,6 +266,9 @@ a:active {
     left: 0;
     right: 0;
     bottom: 0;
+}
+
+.card-work:hover .card-title {
     opacity: 1;
 }
 
