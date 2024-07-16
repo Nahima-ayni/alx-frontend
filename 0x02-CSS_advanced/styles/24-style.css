@@ -200,13 +200,13 @@ ul.row {
     fill: var(--text-color);
 }
 
-.card-title.card-services {
+.card-services .card-title {
     margin: 0;
 }
 
 .card-services a {
     padding: 2rem;
-    display: inline-block;
+    display: block;
     background-color: var(--color-light-grey);
 }
 
